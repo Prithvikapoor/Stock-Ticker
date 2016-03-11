@@ -41,18 +41,13 @@ def main():
     except:
        print "ERROR! something went wrong!"
 
-def check_error():
-    global stocks
-    if stocks ==" ":
-        print "Please Enter Some Vaild Data!"
 
 
 if __name__ == "__main__":
       stocks = raw_input("Please enter a stock symbol: ")
       list1 = stocks.split()
       main()
-      check_error()
-
+      
 
 
 
